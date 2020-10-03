@@ -15,6 +15,7 @@ class App extends Component {
   render() {
      return (
       <div className="App">
+        
         <h1>Hello I'm React App</h1>    
         <p>Is this working?</p>
         <Person name={this.state.persons[0].name} age={this.state.persons[0].age}></Person>
